@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wish App</string>
+    <string name="go">Go</string>
+    <string name="hello_mf">Hello MF</string>
+    <string name="change">Change</string>
+    <string name="result">Result</string>
+    <string name="open_activity_2">open activity 2</string>
+    <string name="numbers">Numbers:</string>
+    <string name="add">add</string>
+    <string name="subtract">subtract</string>
+    <string name="happy_birthday_dash">Happy Birthday \n %s</string>
+    <string name="your_name">Your Name Here</string>
+</resources>
