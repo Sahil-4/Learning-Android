@@ -3,9 +3,9 @@ package com.sahil4.wishapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.annotation.Nullable;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.BufferedReader;
@@ -26,23 +26,18 @@ public class MainActivity extends AppCompatActivity {
         getName();
     }
 
+    ActivityResultLauncher<Intent> someActivityResultLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            result -> {
+                if (result.getResultCode() == RESULT_OK) {
+                    // There are no request codes
+                    getName();
+                }
+            });
+
     public void askName() {
         Intent intent = new Intent(MainActivity.this, Ask_Name.class);
-        startActivityForResult(intent, 1);
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1) {
-            if (resultCode == RESULT_OK) {
-                getName();
-            }
-            if (resultCode == RESULT_CANCELED) {
-                Toast.makeText(this, "Please Enter Your Name", Toast.LENGTH_SHORT).show();
-                getName();
-            }
-        }
+        someActivityResultLauncher.launch(intent);
     }
 
     public void getName() {

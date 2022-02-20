@@ -24,10 +24,14 @@ public class Ask_Name extends AppCompatActivity {
         go = findViewById(R.id.go);
         go.setOnClickListener(view -> {
             String Name = name.getText().toString();
-            saveName(Name);
-            Intent intent = new Intent();
-            setResult(RESULT_OK, intent);
-            finish();
+            if (!Name.equals("")) {
+                saveName(Name);
+                Intent intent = new Intent();
+                setResult(RESULT_OK, intent);
+                finish();
+            } else {
+                Toast.makeText(this, "Please Enter Your Name", Toast.LENGTH_SHORT).show();
+            }
         });
     }
 
