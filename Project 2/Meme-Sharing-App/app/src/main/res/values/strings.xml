@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Meme Sharing App</string>
+    <string name="show_memes">Show Memes</string>
+    <string name="credits">Credits</string>
+    <string name="app_created_by">App Created By :</string>
+    <string name="author">Sahil-4</string>
+    <string name="share">Share</string>
+    <string name="next_meme_button">next meme button</string>
+    <string name="meme">meme</string>
+    <string name="prev_meme_button">prev meme button</string>
+</resources>
