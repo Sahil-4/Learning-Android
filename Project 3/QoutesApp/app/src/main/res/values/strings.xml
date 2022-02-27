@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quotes App</string>
+    <string name="quote">Keep your eyes on the stars and your feet on the ground.</string>
+    <string name="author">-Theodore Roosevelt</string>
+    <string name="share_button">share button</string>
+    <string name="help_button">Help Button</string>
+</resources>
