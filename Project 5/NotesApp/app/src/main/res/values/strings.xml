@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="add_note_button">Add Note</string>
+    <string name="delete_notes">Delete Notes</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit_notes">Edit Notes</string>
+    <string name="toggle_dark_mode">Toggle Dark Mode</string>
+</resources>
