@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sahil4.notesapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:6:5-31:19
+12        android:allowBackup="true"
+12-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\HP\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.NotesApp" >
+22-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:14:9-46
+23        <activity
+23-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:16:9-18:40
+24            android:name="com.sahil4.notesapp.ViewNote"
+24-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:17:13-37
+25            android:exported="false" />
+25-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:18:13-37
+26        <activity
+26-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:19:9-21:40
+27            android:name="com.sahil4.notesapp.AddNote"
+27-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:20:13-36
+28            android:exported="false" />
+28-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:21:13-37
+29        <activity
+29-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:22:9-30:20
+30            android:name="com.sahil4.notesapp.MainActivity"
+30-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:23:13-41
+31            android:exported="true" >
+31-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:24:13-36
+32            <intent-filter>
+32-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:25:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:26:17-69
+33-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:28:17-77
+35-->D:\codes\Android-Development\Learning-Android000000\Learning-Android\Project 5\NotesApp\app\src\main\AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[androidx.room:room-runtime:2.4.2] C:\Users\HP\.gradle\caches\transforms-3\4a3b5f33337ded1b81c553095eeef74a\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.4.2] C:\Users\HP\.gradle\caches\transforms-3\4a3b5f33337ded1b81c553095eeef74a\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+41            android:directBootAware="true"
+41-->[androidx.room:room-runtime:2.4.2] C:\Users\HP\.gradle\caches\transforms-3\4a3b5f33337ded1b81c553095eeef74a\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.4.2] C:\Users\HP\.gradle\caches\transforms-3\4a3b5f33337ded1b81c553095eeef74a\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+46            android:authorities="com.sahil4.notesapp.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>
