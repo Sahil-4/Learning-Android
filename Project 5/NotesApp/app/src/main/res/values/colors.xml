@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    custom colors       -->
+    <color name="bg_main">#FFE6E6FA</color>
+
+    <!--    Colors for notes -->
+    <color name="crimson">#E32636</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="bitter_sweat">#FE6F5E</color>
+    <color name="celadon">#ACE14A</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="scarlet">#FF2400</color>
+
+</resources>

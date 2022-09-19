@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="delete_notes">Delete Notes</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit_notes">Edit Notes</string>
+    <string name="toggle_dark_mode">Toggle Dark Mode</string>
+    <string name="add_note">Add Note</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="note">Note</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="color">color</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="sample_title">Sample title</string>
+    <string name="sample_description">sample description App widgets are miniature application views that can be embedded in other applications (such as the home screen) and receive periodic updates. These views are referred to as widgets in the user interface, and you can publish one with an app widget provider (or widget provider). An app component that is able to hold other widgets is called an app widget host (or widget host). The following example shows a music widget</string>
+</resources>
